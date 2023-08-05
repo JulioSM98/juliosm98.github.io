@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  porfolio:
+    build: .
+    volumes:
+      - ./juliosm:/juliosm
+      - node_modules:/juliosm/node_modules
+    entrypoint: /bin/sh -c "while sleep 1000; do :; done"
+
+volumes:
+  node_modules:
