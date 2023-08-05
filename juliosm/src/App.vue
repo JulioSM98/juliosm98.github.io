@@ -1,7 +1,9 @@
 <script setup lang="ts">
-import Terminal from './components/Terminal.vue'
+import card from './components/Card.vue'
+import icons from './components/Icons.vue'
 </script>
 
 <template>
-  <Terminal/>
+  <card/>
+  <icons/>
 </template>
