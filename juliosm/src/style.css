@@ -48,7 +48,8 @@ body {
 .--text{
   font-family: 'Inter', sans-serif;
   letter-spacing: 0.1rem;
-  color: rgb(179, 209, 255);
+  color: #7eda28;
+  text-shadow: rgba(0, 0, 0, 0.5) 2px 4px 10px;
 }
 .--container-inner{
   padding: 3rem 3rem;
