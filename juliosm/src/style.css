@@ -1,23 +1,82 @@
-
-
-
-
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap'); 
 body {
   margin: 0;
   display: flex;
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  background: linear-gradient(45deg, #57003f 0%,#f57453 100%); 
+  font-family: 'Inter', sans-serif;
 }
-
-
-
-
-
-
 #app {
   max-width: 1280px;
   margin: 0 auto;
   text-align: center;
+  padding: 2.75rem 1.25rem;
 }
 
+#--main{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+  text-align: center;
+  z-index: 1;
+  background-color: #380428e6;
+  /* background: linear-gradient(45deg,#2d3040 0%,#545669 100% ); */
+  border-radius: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.5) 2px 4px 10px;
+
+  
+}
+
+#--name{
+  
+  width: 100%;
+  font-size: 4em;
+  line-height: 1.125;
+  font-weight: 600;
+}
+#--skills{
+  margin-top: 1.5rem;
+  width: 100%;
+  font-size: 1rem;
+  line-height: 1.75;
+  font-weight: 400;
+}
+
+.--text{
+  font-family: 'Inter', sans-serif;
+  letter-spacing: 0.1rem;
+  color: rgb(179, 209, 255);
+}
+.--container-inner{
+  padding: 3rem 3rem;
+}
+
+.--li{
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+#--icons{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0;
+  letter-spacing: 0px;
+  margin-top: 2rem;
+  vertical-align: baseline;
+  gap: 1rem;
+}
+
+
+@media screen and (max-width: 480px) {
+  #--name{
+    letter-spacing: normal;
+    width: 100%;
+    font-size: 3rem;
+    line-height: 1.125;
+    font-weight: 600;
+  }
+}
