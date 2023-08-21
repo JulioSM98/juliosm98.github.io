@@ -1,9 +1,11 @@
 <script setup lang="ts">
-import card from './components/Card.vue'
+import name from './components/Name.vue'
+import skils from './components/Skills.vue'
 import icons from './components/Icons.vue'
 </script>
 
 <template>
-  <card/>
+  <name/>
+  <skils/>
   <icons/>
 </template>
