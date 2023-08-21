@@ -2,7 +2,7 @@
 
 <template>
     <h2>
-        <Typer :text="['DevOps','SysAdmin','BackEnd']" pre-type-delay='2000' eraseStyle='backspace' type-delay='100' preEraseDelay="3500" eraseDelay="150"  caretAnimation='smooth' ></Typer>
+        <Typer :text="['Back-End','DevOps','SysAdmin']" pre-type-delay='200' eraseStyle='backspace' type-delay='100' preEraseDelay="800" eraseDelay="100"  caretAnimation='smooth' ></Typer>
     </h2>
 </template>
 
